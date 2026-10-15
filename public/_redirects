@@ -1,2 +1,5 @@
+# Proxy API requests to backend
+/api/*  https://dev-shpare-back.vercel.app/api/:splat  200!
 
-/*    /index.html   200
+# SPA routing fallback
+/*      /index.html                                   200
